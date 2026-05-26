@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/SmartHomeApp.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/AlertEntry.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/Alertable.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/MQTTPublisher.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/Room.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/SmartDevice.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/AirPurifier.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/Camera.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/Climate.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/Lighting.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/MotionSensor.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/RGBStrip.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/Security.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/Thermostat.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/model/devices/SmartBulb.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/view/BaseRoomView.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/view/BedroomView.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/view/KitchenView.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/view/LivingRoomView.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/view/MainView.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/view/ToggleSwitch.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/controller/HomeController.java</file>
+            <file>file:/C:/Users/user/Downloads/SmartHomeProject/SmartHomeProject/src/smarthome/style.css</file>
+        </group>
+    </open-files>
+</project-private>

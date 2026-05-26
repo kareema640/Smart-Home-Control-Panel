@@ -1,0 +1,315 @@
+/* ===========================
+   Smart Home — style.css
+   =========================== */
+
+.main-root {
+    -fx-background-color: #2e2e2e;
+}
+.content-area {
+    -fx-background-color: #F2F2F2;
+}
+.room-shell {
+    -fx-background-color: #F2F2F2;
+}
+
+/* ===========================
+   SIDEBAR
+   =========================== */
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 1 0 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.10), 8, 0, 2, 0);
+}
+.nav-icon {
+    -fx-font-size: 18px;
+    -fx-padding: 10 0 10 0;
+    -fx-cursor: hand;
+    -fx-text-fill: #555555;
+}
+.nav-icon:hover {
+    -fx-background-color: #f0f7f4;
+    -fx-background-radius: 8;
+}
+
+/* ===========================
+   TOP BAR
+   =========================== */
+.top-bar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #eeeeee;
+    -fx-border-width: 0 0 1 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.04), 4, 0, 0, 2);
+}
+.page-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+.search-field {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 6 14 6 14;
+    -fx-font-size: 12px;
+    -fx-prompt-text-fill: #aaaaaa;
+}
+.top-icon {
+    -fx-font-size: 17px;
+    -fx-cursor: hand;
+    -fx-padding: 2 4 2 4;
+}
+
+/* ===========================
+   STAT CARDS
+   =========================== */
+.stat-card {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e8e8e8;
+    -fx-border-width: 1;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 1);
+}
+.stat-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #999999;
+}
+.stat-value {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+
+/* ===========================
+   DEVICE CARDS
+   =========================== */
+.device-card {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e4e4e4;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.07), 8, 0, 0, 2);
+}
+.card-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+/* White text for dark background cards */
+.card-title-light {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+.small-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #777777;
+}
+
+/* ===========================
+   ALERT PANEL (bg: #C1C1C1)
+   =========================== */
+.alert-panel {
+    -fx-background-color: #C1C1C1;
+    -fx-border-color: #aaaaaa;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 6, 0, 0, 2);
+}
+.alert-list {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.alert-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: #aaaaaa;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 4 4 4 4;
+    -fx-font-size: 10px;
+    -fx-text-fill: #7a0000;
+}
+.alert-list .list-cell:selected {
+    -fx-background-color: #b0b0b0;
+}
+
+/* ===========================
+   LIVE TAG
+   =========================== */
+.live-tag {
+    -fx-background-color: rgba(255,255,255,0.90);
+    -fx-background-radius: 12;
+    -fx-padding: 3 10 3 10;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color: rgba(231,76,60,0.25);
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+}
+
+/* ===========================
+   DIAL
+   =========================== */
+.dial-temp {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+.dial-btn {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-min-width: 38px;
+    -fx-min-height: 38px;
+    -fx-cursor: hand;
+    -fx-text-fill: #444444;
+}
+.dial-btn:hover {
+    -fx-background-color: #e0e0e0;
+}
+.mode-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #666666;
+    -fx-background-color: #e8e8e8;
+    -fx-background-radius: 8;
+    -fx-padding: 3 8 3 8;
+}
+
+/* ===========================
+   MODE BUTTONS
+   =========================== */
+.mode-btn {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+    -fx-text-fill: #555555;
+    -fx-padding: 5 12 5 12;
+}
+.mode-btn-active {
+    -fx-background-color: #1a3d2e;
+    -fx-border-color: #1a3d2e;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5 12 5 12;
+}
+
+/* ===========================
+   SLIDERS
+   =========================== */
+.brightness-slider .track {
+    -fx-background-color: #d8d8d8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-pref-height: 5px;
+}
+.brightness-slider .thumb {
+    -fx-background-color: #1a3d2e;
+    -fx-pref-width: 15px;
+    -fx-pref-height: 15px;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);
+}
+.brightness-slider:hover .thumb {
+    -fx-background-color: #2d6a4f;
+}
+
+/* ===========================
+   SECURITY / ID
+   =========================== */
+.id-field {
+    -fx-background-color: #f8f8f8;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-size: 12px;
+    -fx-padding: 6 10 6 10;
+}
+.error-label {
+    -fx-text-fill: #ff4444;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* ===========================
+   ROOMS PANEL
+   =========================== */
+.rooms-panel {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e4e4e4;
+    -fx-border-radius: 14;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 6, 0, 0, 2);
+}
+.section-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+    -fx-padding: 0 0 4 0;
+}
+.room-item {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+.room-item:hover {
+    -fx-background-color: #f0f7f4;
+}
+.room-item-selected {
+    -fx-background-color: #f0f7f4;
+    -fx-background-radius: 10;
+    -fx-border-color: #b8dfc8;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+}
+.room-name {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+.room-count {
+    -fx-font-size: 10px;
+    -fx-text-fill: #aaaaaa;
+}
+.add-room-btn {
+    -fx-background-color: #1a3d2e;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 0 10 0;
+    -fx-cursor: hand;
+}
+.add-room-btn:hover {
+    -fx-background-color: #2d6a4f;
+}
+
+/* ===========================
+   LARGE DIAL TEMPERATURE
+   =========================== */
+.dial-temp-large {
+    -fx-font-size: 38px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+
+/* Make right column alert panel grow */
+.alert-panel {
+    -fx-background-color: #C1C1C1;
+    -fx-border-color: #aaaaaa;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 6, 0, 0, 2);
+}
